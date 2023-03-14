@@ -12,6 +12,7 @@
 .btn--primary{
   color: white;
   background-color: hsl(200, 100%, 50%);
+  border-radius: 0px;
 }
 
 .btn--primary:hover{
