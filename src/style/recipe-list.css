@@ -1,0 +1,13 @@
+.recipe-list{
+  border-right: 2px  solid black ;
+  /* This will gave all height the border inside the page */
+  min-height: 100vh;
+  width: 50%;
+}
+
+
+.recipe-list__add-recipe-btn-container{
+  padding: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
