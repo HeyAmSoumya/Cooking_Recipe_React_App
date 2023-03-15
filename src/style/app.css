@@ -1,15 +1,21 @@
+@import "font.css";
+@import "recipe-list.css";
+@import "buttons.css";
+@import "recipe.css";
 
-@import 'font.css';
-@import 'recipe-list.css';
-@import 'buttons.css';
-
-* , *::before , *::after{
-  font-family: Gotham Rounded , sans-serif;
+*,
+*::before,
+*::after {
+  font-family: Gotham Rounded, sans-serif;
   margin: 0px;
   padding: 0px;
 }
 
 /* It wil add 25px to all the text present in the page */
-html{
+html {
   font-size: 25px;
+}
+
+.mr-1 {
+  margin-right: 15px;
 }
