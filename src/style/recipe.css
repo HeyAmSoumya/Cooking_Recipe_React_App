@@ -1,0 +1,22 @@
+.recipe {
+  border-bottom: 3px solid #000;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+.recipe:last-child {
+  border-bottom: none;
+  padding-bottom: none;
+}
+
+.recipe__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.recipe__title {
+  margin: 0px;
+  font-size: 1.7rem;
+}

@@ -9,24 +9,24 @@ const Recipe = ({ name, servings, cookTime, instruction, ingredient }) => {
           <button className="btn btn--primary mr-1">Edit</button>
           <button className="btn btn--danger mr-1">Delete</button>
         </div>
-        <div>
-          <span>Cooking Time: </span>
-          <span>{cookTime}</span>
-        </div>
-        <div>
-          <span>Serving: </span>
-          <span>{servings}</span>
-        </div>
-        <div>
-          <span>Instruction: </span>
-          <div>{instruction}</div>
-        </div>
+      </div>
+      <div>
+        <span>Cooking Time: </span>
+        <span>{cookTime}</span>
+      </div>
+      <div>
+        <span>Serving: </span>
+        <span>{servings}</span>
+      </div>
+      <div>
+        <span>Instruction: </span>
+        <div>{instruction}</div>
+      </div>
 
+      <div>
+        <span>Ingredients: </span>
         <div>
-          <span>Ingredients: </span>
-          <div>
-            <IngredientList ingredient={ingredient} />
-          </div>
+          <IngredientList ingredient={ingredient} />
         </div>
       </div>
     </div>
