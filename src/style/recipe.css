@@ -6,7 +6,7 @@
 
 .recipe:last-child {
   border-bottom: none;
-  padding-bottom: none;
+  padding-bottom: 10px;
 }
 
 .recipe__header {

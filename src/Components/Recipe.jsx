@@ -10,8 +10,8 @@ const Recipe = ({ name, servings, cookTime, instruction, ingredient }) => {
           <button className="btn btn--danger mr-1">Delete</button>
         </div>
       </div>
-      <div>
-        <span>Cooking Time: </span>
+      <div className="recipe__row">
+        <span className="recipe__label">Cooking Time: </span>
         <span>{cookTime}</span>
       </div>
       <div>
