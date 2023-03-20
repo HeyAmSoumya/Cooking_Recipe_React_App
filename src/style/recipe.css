@@ -4,6 +4,10 @@
   margin-top: 20px;
 }
 
+.recipe__adjust {
+  margin-left: 20px;
+}
+
 .recipe:last-child {
   border-bottom: none;
   padding-bottom: 10px;
@@ -19,4 +23,24 @@
 .recipe__title {
   margin: 0px;
   font-size: 1.7rem;
+}
+
+.recipe__row {
+  margin-top: 10px;
+}
+
+.recipe__label {
+  margin-right: 5px;
+}
+
+.recipe__value {
+  font-weight: 200;
+}
+
+.recipe__instructions {
+  white-space: pre-wrap;
+}
+.recipe__value--indented {
+  margin-top: 10px;
+  margin-left: 20px;
 }
