@@ -16,14 +16,14 @@ function App() {
 const sampleRecipes = [
   {
     id: 1,
-    name: 'Plain Panir',
+    name: 'Plane Paneer',
     servings: 3,
     cookTime: '1.45',
-    instruction: " 1. put salt on panir \n  2. Put panir in oven \n  3. Eat chicken",
+    instruction: " 1. put salt on paneer \n  2. Put paneer in oven \n  3. Eat Paneer",
     ingredient: [
       {
         id: 1,
-        name: 'panir',
+        name: 'paneer',
         amount: '4 pices'
       },
       {
@@ -36,7 +36,7 @@ const sampleRecipes = [
 
   {
     id: 2,
-    name: 'Plain Mushroom',
+    name: 'Plane Mushroom',
     servings: 5,
     cookTime: '0.45',
     instruction: " 1. put salt on mushroom \n  2. Put mushroom in oven \n  3. Eat chicken",
